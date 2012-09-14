@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.firstpage);
-        System.out.println("Git hub");
+        System.out.println("Git hub rapper");
         btnSendAppName = (Button) findViewById(R.id.buttonSend);
         btnGesture = (Button)findViewById(R.id.buttonGesture);
         btnSendAppName.setOnClickListener(new OnClickListener() {
